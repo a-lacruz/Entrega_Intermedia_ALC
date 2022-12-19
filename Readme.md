@@ -1,6 +1,6 @@
 ### Funcionalidades por vista:
 
-Empleados:
+###### Empleados:
 Permite la carga en la base de datos, para el modelo "Empleados"
 
     - Nombre (texto hasta 50 caracteres)
@@ -10,7 +10,7 @@ Permite la carga en la base de datos, para el modelo "Empleados"
     - Cargo (texto hasta 50 caracteres)
     - Fecha de Nacimiento (formato YY-MM-DD)
 
-Cliente:
+##### Cliente:
 Permite la carga en la base de datos, para el modelo "Cliente"
 
     - Nombre (texto hasta 50 caracteres)
@@ -18,7 +18,7 @@ Permite la carga en la base de datos, para el modelo "Cliente"
     - Pedido (texto hasta 50 caracteres)
     - Estado ((texto hasta 50 caracteres, ej: Activo/Inactivo
 
-Producto:
+##### Producto:
 Permite la carga en la base de datos, para el modelo "Producto"
 
     - Codigo (numero entero)
@@ -27,11 +27,11 @@ Permite la carga en la base de datos, para el modelo "Producto"
 
 Cuando se finaliza la carga en cualquiera de los modelos, el programa llama a una pagina con un mensaje indicando la carga correcta.
 
-Busqueda:
+##### Busqueda:
 
 El modulo de busqueda, esta definido por el momento solo para "Clientes". Se debe escribir en el formulario el nombre a buscar, y el programa, si existiera el registro, devolvera el nombre del cliente y su estado. En caso de no estar cargado en la base de datos, devolvera un mensaje que no fue encontrado.
 
-Base de Datos SQLite
+##### Base de Datos SQLite
     superuser: admin
     password: admin
 
