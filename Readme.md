@@ -1,4 +1,4 @@
-﻿###Funcionalidades por vista:
+### Funcionalidades por vista:
 
 Empleados:
 Permite la carga en la base de datos, para el modelo "Empleados"
@@ -12,6 +12,7 @@ Permite la carga en la base de datos, para el modelo "Empleados"
 
 Cliente:
 Permite la carga en la base de datos, para el modelo "Cliente"
+
     - Nombre (texto hasta 50 caracteres)
     - Direccion (texto hasta 50 caracteres)
     - Pedido (texto hasta 50 caracteres)
@@ -19,6 +20,7 @@ Permite la carga en la base de datos, para el modelo "Cliente"
 
 Producto:
 Permite la carga en la base de datos, para el modelo "Producto"
+
     - Codigo (numero entero)
     - Descripcion (texto hasta 50 caracteres)
     - Cantidad (numero entero)
@@ -36,15 +38,19 @@ Base de Datos SQLite
 #### Pasos para clonar el proyecto desde Github
 
 Clona el repositorio en tu máquina local utilizando Git. Abre una terminal y escribe:
+
 `git clone https://github.com/usuario/repositorio.git`
 
 Accede al directorio del repositorio clonado:
+
 `cd repositorio`
 
 Asegúrate de tener instalado Django en tu máquina. Si aún no lo tienes instalado, puedes hacerlo ejecutando:
+
 `pip install django`
 
 Crea un entorno virtual para el proyecto. Esto te permitirá tener un espacio aislado para instalar las dependencias necesarias para el proyecto y evitar conflictos con otras aplicaciones. Para crear un entorno virtual con Python, puedes utilizar el siguiente comando:
+
 `python -m venv nombre_entorno`
 
 Activa el entorno virtual:
@@ -54,10 +60,14 @@ Activa el entorno virtual:
 `source nombre_entorno/bin/activate`
 
 Crea la base de datos y ejecuta las migraciones necesarias para crear las tablas y relaciones necesarias para el proyecto:
+
 `python manage.py makemigrations`
 `python manage.py migrate`
 
 Arranca el servidor de desarrollo con el siguiente comando:
+
 `python manage.py runserver`
 
-Ahora podrás acceder al proyecto Django desde tu navegador web en la dirección `<link>`http://127.0.0.1:8000/.
+Ahora podrás acceder al proyecto Django desde tu navegador web en la dirección 
+
+`<link>`http://127.0.0.1:8000/.
